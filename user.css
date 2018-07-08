@@ -1,0 +1,37 @@
+
+.header{
+			text-align: center;
+            color:red;
+			background-color: DarkGray;
+            font-family: 'Oleo Script', cursive;
+            font-size: 30px;
+			overflow: hidden;
+			top: 0;
+			width: 100%;
+			margin: 0;
+			height:100px;
+    }
+a {
+		text-decoration: none;
+		color: red;
+		}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family:'Oleo Script', cursive;
+	font-weight: bold;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
